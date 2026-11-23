@@ -18,18 +18,21 @@
   }
   @media (prefers-color-scheme: dark) {
     :root {
-      --bg: #141b29;
+      --bg: #fff4e6;
       --surface: #1d2638;
       --ink: #e8edf6;
       --muted: #9aa8c0;
       --line: #2e3a52;
-      --accent: #8da0ff;
+      --accent: #e8590c;
       --ok: #4cc58d;
     }
   }
   * { box-sizing: border-box; }
   html { scroll-behavior: smooth; }
   body {
+    <div style="background:#e8590c;color:#fff;text-align:center;padding:10px;font-weight:600;">
+  Версия 2: этот баннер добавлен через GitHub и опубликован Cloudflare
+</div>
     margin: 0;
     background: var(--bg);
     color: var(--ink);
@@ -98,6 +101,11 @@
     .hero { padding-top: 48px; }
   }
   @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  h1 {
+  color: #e8590c;
+  text-decoration: underline wavy;
+  text-underline-offset: 8px;
+}
 </style>
 </head>
 <body>
